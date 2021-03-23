@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Style/main.css">
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <link rel="stylesheet" href="Style/flipTimer.css">
+        <title>پنل کاربری اعضا</title>
+    </head>
+    <body>
+        <header>
+            <div id="header">
+                <div id="header_right">
+                    <div id="header_right_top">
+                        <ul>
+                            <li id="wellcomtext">
+                                <span style="background: url(images/slices.png) no-repeat  -309px -26px ;"></span>
+                                فروشگاه اینترنتی دیجی کالا.<a href="#">وارد شوید.</a>
+                            </li>
+                            <li id="regist">
+                                <span style="background: url(images/slices.png) no-repeat  -273px -26px ;"></span>
+                                <a href="#">ثبت نام کنید</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="header_right_bottom">
+                        <div id="basket_top">
+                            <div id="basket_top_right"></div>
+                            <div id="basket_top_left">
+                                <p>سبد خرید</p>
+                                <span>0</span>
+                            </div>
+                        </div>
+                        <div id="search_top">
+                            <input type="text" placeholder="محصول یا دسته یا برند مورد نظرتان را وارد کنید..."/>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div id="header_left">
+                    <a href="#">
+                        <img src="images/logo.png">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <div id="nav_top">
+                <ul>
+
+                    <li data-time="1" >
+                        <a href="#">
+                            کالای دیجیتال
+                            <span></span>
+                        </a>
+                        <ul class="ul_top_2">
+                            <li data-time="3">
+                                <a href="#">موبایل</a>
+
+                                <div class="nav_top_row">
+                                    <div class="nav_top_3row">
+                                        <ul class="ul_top_3">
+
+                                            <li>
+                                                <a href="#">گوشی موبایل</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">Apple</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">HTC</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="nav_top_3row"></div>
+                                    <div class="nav_top_3row"></div>
+                                    <div class="nav_top_3row"></div>
+                                    <img src="images/mobile.png"/>
+                                </div>
+
+                            </li>
+
+                            <li data-time="4">
+                                <a href="#">تبلت خوان</a>
+                            </li>
+
+                            <li data-time="5">
+                                <a href="#">لپ تاپ</a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                    <li data-time="2">
+                        <a href="#">
+                            لوازم خانگی
+                            <span></span>
+                        </a>
+                        <ul class="ul_top_2">
+                            <li data-time="6">
+                                <a href="#">صوتی تصویری</a>
+
+                                <div class="nav_top_row">
+                                    <div class="nav_top_3row">
+                                        <ul class="ul_top_3">
+
+                                            <li>
+                                                <a href="#">تلویزیون بر اساس سازنده</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">LG</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">sony</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="nav_top_3row"></div>
+                                    <div class="nav_top_3row"></div>
+                                    <div class="nav_top_3row"></div>
+                                    <img src="images/video.png"/>
+                                </div>
+                            </li>
+
+                            <li data-time="7">
+                                <a href="#">لوازم خانگی برقی</a>
+                            </li>
+
+                            <li data-time="8">
+                                <a href="#">آشپزخانه</a>
+                            </li>
+
+                        </ul>
+
+
+
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+
+
+           <div id="main" class="showCart1Main" style="width: 1200px;margin:10px auto;padding: 5px;background: #fff;">
+               <div class="order-steps" style="margin-right: 119px;">
+                   <div class="dashed">
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                   </div>
+                   <ul>
+                       <li>
+                           <span class="circle"></span>
+                           <span class="line"></span>
+                           <span class="title">
+ورود به سایت
+                           </span>
+                       </li>
+                       <li>
+                           <span class="circle"></span>
+                           <span class="line"></span>
+                           <span class="title">
+اطلاعات سفارش
+                           </span>
+                       </li>
+                       <li>
+                           <span class="circle"></span>
+                           <span class="line"></span>
+                           <span class="title">
+بازبینی سفارش
+                           </span>
+                       </li>
+                       <li style="width:35px ">
+                           <span class="circle"></span>
+                           <span class="title">
+اطلاعات پرداخت
+                           </span>
+                       </li>
+
+                   </ul>
+                   <div class="dashed">
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                   </div>
+
+
+               </div>
+               <div class="content">
+
+                   <div class="right">
+                       <i></i>
+                       <p style="font-size: 12pt;">
+                           عضو دیجی کالا هستید؟
+                       </p>
+                       <p style="font-size: 10.5pt;margin-top: 2px;">
+                           جهت تکمیل خرید وارد شوید
+                       </p>
+                       <p>
+                           <a href="login" class="btn_green">
+                               ورود به کلیک سایت
+                           </a>
+                       </p>
+
+                   </div>
+                   <div class="left">
+                       <i></i>
+                       <p style="font-size: 12pt;">
+                           هنوز عضو نشده اید؟
+                       </p>
+                       <p style="font-size: 10.5pt;margin-top: 2px;">
+                           جهت خرید باید ثبت نام کنید
+                       </p>
+                       <p>
+                           <a href="register" class="btn_blue">
+           ثبت نام در کلیک سایت
+                           </a>
+                       </p>
+                   </div>
+
+               </div>
+
+           </div>
+
+        <footer>
+
+            <div id="footer_top">
+                <div class="main">
+
+                    <span class="yekan fontlg">
+                         ۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم.
+                    </span>
+
+                    <ul>
+                        <li>
+                            <a class="yekan">
+
+                                021-222-22-22
+                                <i style="background-position: -397px -420px; "></i>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a class="yekan">
+                                سوالات متداول
+                                <i style="background-position: -358px -420px; "></i>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a class="yekan">
+                                info@digikala
+                                <i style="background-position: -321px -420px; "></i>
+
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+
+            <div id="footer_bottom">
+
+                <div class="main">
+
+                    <div class="right">
+
+                        <ul>
+                            <li><a class="title2">راهنمای خرید از دیجی‌کالا</a></li>
+                            <li><a> ثبت سفارش</a></li>
+                            <li><a>رویه های ارسال سفارش</a></li>
+                            <li><a>شیوه های پرداخت</a></li>
+
+
+                        </ul>
+
+                    </div>
+                    <div class="center">
+                        <ul>
+                            <li><a class="title2">راهنمای خرید مشتریان</a></li>
+                            <li><a> ثبت سفارش</a></li>
+                            <li><a>رویه های ارسال سفارش</a></li>
+                            <li><a>شیوه های پرداخت</a></li>
+
+
+                        </ul>
+                    </div>
+                    <div class="left">
+                        <p class="title2 yekan">
+                            اولین نفری که مطلع می شود، باشید!
+                        </p>
+
+                        <div class="email">
+                            <input type="text">
+                            <span class="btn">
+                                تایید ایمیل
+                            </span>
+                        </div>
+
+                        <div class="social">
+
+                            <a>
+                                <img src="images/ios_app_bg.png">
+                            </a>
+                            <a>
+                                <img src="images/android_app_bg.png">
+                            </a>
+
+                            <span class="social_button" style="background-position:-577px -621px; "></span>
+                            <span class="social_button" style="background-position:-453px -621px; "></span>
+                            <span class="social_button" style="background-position:-494px -621px; "></span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+
+
+
+
+        <script>
+
+                        //navbar
+                        var timer={};
+                        $('#nav_top li').hover(function () {
+                            var tag=$(this);
+                            var timerAttr=tag.attr('data-time');
+                            clearTimeout(timer[timerAttr]);
+                            timer[timerAttr]=setTimeout(function () {
+                                $('>ul', tag).fadeIn(0);
+                                tag.addClass('activeMenue');
+                                $('>.nav_top_row', tag).fadeIn(0);
+                            }, 500);
+
+                        },
+                                function () {
+                                    var tag=$(this);
+                                    var timerAttr=tag.attr('data-time');
+                                    clearTimeout(timer[timerAttr]);
+                                 timer[timerAttr]=   setTimeout(function () {
+                                        $('>ul', tag).fadeOut(0);
+                                        tag.removeClass('activeMenue');
+                                        $('>.nav_top_row', tag).fadeOut(0);
+                                    }, 600);
+
+                                });
+
+                        //end of nav bar
+
+        </script>
+
+    </body>
+</html>

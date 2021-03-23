@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Style/main.css">
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/jquery.flipTimer.js"></script>
+        <link rel="stylesheet" href="Style/flipTimer.css">
+        <link rel="stylesheet" href="Style/font-awesome.min.css">
+        <title>فروشگاه اینترنتی دیجی کالا</title>
+    </head>
+    <body>
+        <header>
+            <div id="header">
+                <div id="header_right">
+                    <div id="header_right_top">
+                        <ul>
+                            <li id="wellcomtext">
+                                <span style="background: url(images/slices.png) no-repeat  -309px -26px ;"></span>
+                                فروشگاه اینترنتی دیجی کالا.<a href="#">وارد شوید.</a>
+                            </li>
+                            <li id="regist">
+                                <span style="background: url(images/slices.png) no-repeat  -273px -26px ;"></span>
+                                <a href="#">ثبت نام کنید</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="header_right_bottom">
+                        <div id="basket_top">
+                            <div id="basket_top_right"></div>
+                            <div id="basket_top_left">
+                                <p>سبد خرید</p>
+                                <span>0</span>
+                            </div>
+                        </div>
+                        <div id="search_top">
+                            <input type="text" placeholder="محصول یا دسته یا برند مورد نظرتان را وارد کنید..."/>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div id="header_left">
+                    <a href="#">
+                        <img src="images/logo.png">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <div id="nav_top">
+                <ul>
+
+                    <li data-time="1" >
+                        <a href="#">
+                            کالای دیجیتال
+                            <span></span>
+                        </a>
+                        <ul class="ul_top_2">
+                            <li data-time="3">
+                                <a href="#">موبایل</a>
+
+                                <div class="nav_top_row">
+                                    <div class="nav_top_3row">
+                                        <ul class="ul_top_3">
+
+                                            <li>
+                                                <a href="#">گوشی موبایل</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">Apple</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">HTC</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="nav_top_3row"></div>
+                                    <div class="nav_top_3row"></div>
+                                    <div class="nav_top_3row"></div>
+                                    <img src="images/mobile.png"/>
+                                </div>
+
+                            </li>
+
+                            <li data-time="4">
+                                <a href="#">تبلت خوان</a>
+                            </li>
+
+                            <li data-time="5">
+                                <a href="#">لپ تاپ</a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                    <li data-time="2">
+                        <a href="#">
+                            لوازم خانگی
+                            <span></span>
+                        </a>
+                        <ul class="ul_top_2">
+                            <li data-time="6">
+                                <a href="#">صوتی تصویری</a>
+
+                                <div class="nav_top_row">
+                                    <div class="nav_top_3row">
+                                        <ul class="ul_top_3">
+
+                                            <li>
+                                                <a href="#">تلویزیون بر اساس سازنده</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">LG</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">sony</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="nav_top_3row"></div>
+                                    <div class="nav_top_3row"></div>
+                                    <div class="nav_top_3row"></div>
+                                    <img src="images/video.png"/>
+                                </div>
+                            </li>
+
+                            <li data-time="7">
+                                <a href="#">لوازم خانگی برقی</a>
+                            </li>
+
+                            <li data-time="8">
+                                <a href="#">آشپزخانه</a>
+                            </li>
+
+                        </ul>
+
+
+
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+        <div class="search_main">
+            <div class="sidebar">
+                <h3>
+                    انتخاب شما
+                </h3>
+
+                <div class="filter_selected">
+                </div>
+
+                <div class="row_h"></div>
+
+                <ul>
+                    <h3>
+                        دسته بندی
+                    </h3>
+                    <li>
+                        <a href="">
+
+کالای دیجیتال
+                        <ul>
+                            <li>
+                                <a href="">
+موبایل
+                                </a>
+                            </li>
+                        </ul>
+                        </a>
+                    </li>
+                </ul>
+                <div class="row_h"></div>
+                <ul>
+                    <h3>برند و سازنه کالا</h3>
+                    <input type="text" placeholder="جستجو کنید">
+                    <ul>
+                        <li>
+                            <input type="checkbox"><label>اپل</label>
+                        </li>
+                        <li>
+                            <input type="checkbox"><label>سامسونگ</label>
+                        </li>
+                        <li>
+                            <input type="checkbox"><label>هواوی</label>
+                        </li>
+                        <li>
+                            <input type="checkbox"><label>سونی</label>
+                        </li>
+
+                    </ul>
+                </ul>
+                <div class="row_h"></div>
+
+                <ul>
+                                   <h3>سیستم عامل</h3>
+
+                                   <ul>
+                                       <li>
+                                           <input type="checkbox"><label>اندروید</label>
+                                       </li>
+                                       <li>
+                                           <input type="checkbox"><label>ios</label>
+                                       </li>
+                                       <li>
+                                           <input type="checkbox"><label>windows</label>
+                                       </li>
+
+                                   </ul>
+                               </ul>
+                               <div class="row_h"></div>
+                <ul>
+                    <h3>براساس رنگ</h3>
+                    <li>
+                        <input type="checkbox">
+                        <label>قرمز</label>
+                        <span style="background: red"></span>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <label>آبی</label>
+                        <span style="background: blue"></span>
+                    </li>
+                    <li>
+                        <input type="checkbox">
+                        <label>زرد</label>
+                        <span style="background: yellow"></span>
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="content">
+                <ul>
+                    <li>
+                        <a href="">کالای دیجیتال</a>
+                        <i class="fa fa-caret-left" aria-hidden="true"></i>
+                    </li>
+                    <li>
+                        <a href="">موبایل </a>
+                        <i class="fa fa-caret-left" aria-hidden="true"></i>
+
+                    </li>
+                    <li>
+                        <a href="">گوشی موبایل</a>
+                        <i class="fa fa-caret-left" aria-hidden="true"></i>
+
+                    </li>
+
+                </ul>
+
+                <div class="anva">
+                    <ul class="filter_top">
+
+                        <li >
+                                   <span class="title">
+تعداد سیم کارت
+                                   </span>
+                                <img src="images/sideArrow.gif">
+                                <div class="options">
+
+                                    <ul style="padding-right: 0;padding-top: 10px;">
+
+
+                                        <li data-id="0" >
+                                            <span class="square"></span>
+                                            نمایش همه
+                                        </li>
+
+                                        <div class="row_h"></div>
+
+
+
+                                            <li data-id="1"   >
+                                                <span class="square"></span>
+یک
+                                            </li>
+                                        <li  data-id="2" >
+                                            <span class="square"></span>
+دو
+                                        </li>
+                                        <li  data-id="3" >
+                                            <span class="square"></span>
+سه
+                                        </li>
+
+
+
+                                    </ul>
+
+                                </div>
+                            </li>
+                        <li >
+                               <span class="title">
+حافظه داخلی
+                               </span>
+                            <img src="images/sideArrow.gif">
+
+                            <img src=sideArrow.gif">
+                            <div class="options">
+
+                                <ul style="padding-right: 0;padding-top: 10px;">
+
+
+                                    <li data-id="4" >
+                                        <span class="square"></span>
+                                        نمایش همه
+                                    </li>
+
+                                    <div class="row_h"></div>
+
+
+
+                                        <li data-id="5" >
+                                            <span class="square"></span>
+یک
+                                        </li>
+                                    <li data-id="6">
+                                        <span class="square"></span>
+دو
+                                    </li>
+                                    <li data-id="7" >
+                                        <span class="square"></span>
+سه
+                                    </li>
+
+
+
+                                </ul>
+
+                            </div>
+                        </li>
+                        <li >
+                               <span class="title">
+سایز صفحه نمایش
+                               </span>
+                            <img src="images/sideArrow.gif">
+                            <div class="options">
+
+
+                            </div>
+                        </li>
+                        <li >
+                               <span class="title">
+رزولوشن
+                               </span>
+                            <img src="images/sideArrow.gif">
+                            <div class="options">
+
+
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+                <div class="row_h"></div>
+                <div id="search">
+                    <input type="text" placeholder="جستجو...">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <div class="exist">
+                        <span class="existbg"></span>
+                        <span class="yesNo"></span>
+                        <span class="existText">
+                            نمایش کالاهای موجود
+                        </span>
+
+                    </div>
+
+                    <div class="display_type">
+                        <span class="display_type_text">
+                            حالت نمایش
+                        </span>
+                        <span class="type2"></span>
+                        <span class="type1"></span>
+                    </div>
+                </div>
+                <div id="sort">
+                            <span style="font-size: 9.8pt;">
+                                مرتب سازی بر اساس
+                            </span>
+                    <select name="orderType1">
+                        <option value="1">قیمت</option>
+                        <option value="2">پربازدیدترین</option>
+                        <option value="3">جدیدترین</option>
+                        <option value="4">پیشنهادویژه</option>
+                        <option value="5">پرفروش ترین</option>
+
+                    </select>
+                    <select name="orderType2">
+                        <option value="1">صعودی</option>
+                        <option value="2"> نزولی</option>
+                    </select>
+                    <span style="font-size: 9.8pt;">
+                تعداد نمایش
+                             </span>
+                    <select id="limit">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+
+                </div>
+                <div id="pagination">
+
+                            <span class="next">
+                صفحه بعد
+                            </span>
+                    <ul>
+                        <li>
+                            1
+                        </li>
+
+                        <li>
+                          2
+                        </li>
+
+                    </ul>
+
+                    <span class="prev">
+                                صفحه قبل
+                     </span>
+
+
+                </div>
+                <div style="width: 98%">
+                <div id="products" >
+                    <ul>
+                        <li>
+                           <a href="">
+                               <div class="right">
+                               <div class="textcenter" style="margin-top: 4px">
+                                   <img src="images/product1.jpg" alt="">
+                               </div>
+                               <div class="colors textcenter" >
+                                   <span class="color" style="background: silver"></span>
+                                   <span class="color" style="background: gold"></span>
+                                   <span class="color" style="background: red"></span>
+                               </div>
+
+                               <div class="stars textcenter">
+                                   <div class="gray">
+                                       <div class="red"></div>
+                                   </div>
+                               </div>
+                               </div>
+
+                               <div class="left">
+
+                               <div class="title">
+                                   apple
+                               </div>
+                                   <div class="description">
+                                       توضیحات محصولات.
+                                       توضیحات محصولات.
+                                       توضیحات محصولات.
+                                       توضیحات محصولات.
+                                       توضیحات محصولات.
+                                   </div>
+
+                               <div class="price ">
+                                   <p class="price_red">
+                                       200,000
+                                   </p>
+                                   <p class="price_green">
+                                       100,000
+                                   </p>
+                                   <span class="addtocart"></span>
+
+
+                               </div>
+
+
+                               </div>
+
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer>
+
+            <div id="footer_top">
+                <div class="main">
+
+                    <span class="yekan fontlg">
+                         ۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم.
+                    </span>
+
+                    <ul>
+                        <li>
+                            <a class="yekan">
+
+                                021-222-22-22
+                                <i style="background-position: -397px -420px; "></i>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a class="yekan">
+                                سوالات متداول
+                                <i style="background-position: -358px -420px; "></i>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a class="yekan">
+                                info@digikala
+                                <i style="background-position: -321px -420px; "></i>
+
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+
+            <div id="footer_bottom">
+
+                <div class="main">
+
+                    <div class="right">
+
+                        <ul>
+                            <li><a class="title2">راهنمای خرید از دیجی‌کالا</a></li>
+                            <li><a> ثبت سفارش</a></li>
+                            <li><a>رویه های ارسال سفارش</a></li>
+                            <li><a>شیوه های پرداخت</a></li>
+
+
+                        </ul>
+
+                    </div>
+                    <div class="center">
+                        <ul>
+                            <li><a class="title2">راهنمای خرید مشتریان</a></li>
+                            <li><a> ثبت سفارش</a></li>
+                            <li><a>رویه های ارسال سفارش</a></li>
+                            <li><a>شیوه های پرداخت</a></li>
+
+
+                        </ul>
+                    </div>
+                    <div class="left">
+                        <p class="title2 yekan">
+                            اولین نفری که مطلع می شود، باشید!
+                        </p>
+
+                        <div class="email">
+                            <input type="text">
+                            <span class="btn">
+                                تایید ایمیل
+                            </span>
+                        </div>
+
+                        <div class="social">
+
+                            <a>
+                                <img src="images/ios_app_bg.png">
+                            </a>
+                            <a>
+                                <img src="images/android_app_bg.png">
+                            </a>
+
+                            <span class="social_button" style="background-position:-577px -621px; "></span>
+                            <span class="social_button" style="background-position:-453px -621px; "></span>
+                            <span class="social_button" style="background-position:-494px -621px; "></span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+        <script>
+            //نمایش کالای موجود
+
+            $('#search .exist').click(function () {
+                $(this).toggleClass('active');
+                if($(this).hasClass('active')){
+                    $('.yesNo',this).animate({'right':'12px'},400);
+
+                }else{
+                    $('.yesNo',this).animate({'right':'1px'},400);
+
+                }
+            })
+            //اتمام نمایش کالای موجود
+            
+            //نوع نمایش محصول
+           $('#search span.type1').click(function () {
+               $('#search span.type2').css('background-position','0px 0px');
+               $('#products').removeClass('display1');
+               $('#search span.type2').removeClass('active');
+               $(this).addClass('active');
+               $('#products').addClass('display1');
+           });
+            $('#search span.type2').click(function () {
+                $('#products').removeClass('display1');
+                $(this).addClass('active');
+                $('#search span.type1').removeClass('active');
+            });
+            
+            //اتمام نوع نمایش محصول
+            //filter show
+            var filters=$('.filter_top >li');
+            filters.hover(function () {
+                $('.options',this).slideDown(200);
+            },function () {
+                $('.options',this).slideUp(200);
+
+            })
+
+            //end of filter show
+
+            //filter chooser
+            var items=$('.filter_top .options li');
+
+            items .hover(function () {
+
+                $('.square',this).addClass('square_hover');
+            },function () {
+                $('.square',this).removeClass('square_hover');
+            });
+
+
+
+            items.click(function () {
+                var title=$(this).parents('li').find('.title').text();
+                var value=$(this).text();
+                var id=$(this).attr('data-id');
+                var filterSelectedSpan=$('.filter_selected ').find('span[data-id='+id+']');
+                var len=filterSelectedSpan.length;
+
+               if(len>0){
+                   filterSelectedSpan.remove();
+               }else{
+                   var span='<span data-id="'+id+'" class="filter"><i onclick="removeSelected(this)" class="fa fa-times" aria-hidden="true"></i>'+title+':'+value+'</span>';
+
+                   $('.sidebar .filter_selected').append(span);
+               }
+
+
+                $('.square',this).toggleClass('square_selected');
+            });
+
+            function removeSelected(tag) {
+               var span_tag=$(tag).parents('span');
+                span_tag.remove();
+                var id=span_tag.attr('data-id');
+                $('.options li[data-id='+id+']').find('.square').removeClass('square_selected');
+
+            }
+
+
+            //end filter chooser
+
+
+
+
+
+              //scrollSlider
+              function sliderScroll(dir,tag) {
+                  var span_tag=$(tag);
+                   var scrollTag=span_tag.parents('.scrollSlider');
+                                var scrollUlTag=scrollTag.find('.content_main_slider >.content> ul');
+                                var scrollItems=scrollUlTag.find('li');
+                                var scrollItemsNumber=scrollItems.length;
+                                var ulWidth=scrollItemsNumber*210;
+                                scrollUlTag.css('width',ulWidth);
+                                var slidScrollUlNumbers=Math.ceil(scrollItemsNumber/4);
+                                var maxNegetiveMargin=-(slidScrollUlNumbers-1)*790;
+
+
+                   var marginOld=scrollUlTag.css('margin-right');
+                   marginOld=parseFloat(marginOld);
+
+                   if(dir=="next"){
+                       var marginRightNew=marginOld-210;
+
+                   }
+                   if(dir=="prev"){
+                       var marginRightNew=marginOld+210;
+                   }
+                   if(marginRightNew<maxNegetiveMargin){
+                       marginRightNew=marginOld;
+                   }
+                   if(marginRightNew>0){
+                       marginRightNew=0;
+                   }
+
+                   scrollUlTag.animate({'marginRight':marginRightNew},1000);
+              };
+
+
+              //end of scrollSlider
+
+              //slider2 nav
+              var slidShow2=$('.slider2');
+                                      var items2=slidShow2.find('.item');
+                                      var nextSlid2=1;
+                                      var slidNum2=items2.length;
+                                      var navigators2=slidShow2.find('.slider2_left_nav ul li');
+                                      var timOut2=6000;
+
+                                      function sliderPlay2() {
+                                          if (nextSlid2 > slidNum2) {
+                                              nextSlid2 = 1;
+                                          }
+                                          if (nextSlid2 < 1) {
+                                              nextSlid2=slidNum2;
+                                          }
+                                          items2.hide();
+                                          navigators2.removeClass('active');
+                                          items2.eq(nextSlid2-1).fadeIn(300);
+                                          navigators2.eq(nextSlid2-1).addClass('active');
+                                          nextSlid2++;
+                                      }
+                                      sliderPlay2();
+                                      var intervalSlid2=setInterval(sliderPlay2,timOut2);
+
+
+
+                                      function goToSlid2(index2) {
+                                          nextSlid2=index2;
+                                          sliderPlay2();
+                                      }
+
+
+
+                                      $('.slider2_left_nav ul li').click(function () {
+                                          clearInterval(intervalSlid2);
+                                          var index2 = $(this).index();
+                                          goToSlid2(index2 + 1);
+                                      });
+                                      slidShow2.mouseleave(function () {
+                                          clearInterval(intervalSlid2);
+                                          intervalSlid2=setInterval(sliderPlay2,timOut2);
+                                      });
+                                      //end of slider2 nav
+
+
+              //slider2
+                        $('.flipTimer').flipTimer({
+                            direction:'down',
+                            date:'September 04, 2017 12:36:00',
+                            callback:function () {
+                                $('.slider2_content_rigt').css('opacity','.2');
+                                $('.flipTimer').css('opacity','.2');
+                                $('.slider2 span').css('opacity','.2');
+                                $('.slider2_content_right_hiden').fadeIn(300);
+
+                            }
+
+                        });
+                        //end of slider2
+
+            //slider1 nav
+                        var slidShow=$('.top_slideShow');
+                        var items=slidShow.find('.item');
+                        var nextSlid=1;
+                        var slidNum=items.length;
+                        var navigators=slidShow.find('.top_slideshow_bottom ul li');
+                        var timOut=3000;
+
+                        function sliderPlay() {
+                            if (nextSlid > slidNum) {
+                                nextSlid = 1;
+                            }
+                            if (nextSlid < 1) {
+                                nextSlid=slidNum;
+                            }
+                            items.hide();
+                            navigators.removeClass('active');
+                            items.eq(nextSlid-1).fadeIn(100);
+                            navigators.eq(nextSlid-1).addClass('active');
+                            nextSlid++;
+                        }
+                        sliderPlay();
+                        var intervalSlid=setInterval(sliderPlay,timOut);
+
+                        function next() {
+                            clearInterval(intervalSlid);
+                            sliderPlay();
+                        }
+
+                        function prev() {
+                            clearInterval(intervalSlid);
+                            nextSlid = nextSlid-2;
+                            sliderPlay();
+                        }
+
+                        function goToSlid(index) {
+                            nextSlid=index;
+                            sliderPlay();
+                        }
+
+                        $('.next').click(function () {
+                           next();
+                        });
+
+                        $('.prev').click(function () {
+                            prev();
+                        });
+
+                        $('.top_slideshow_bottom li').click(function () {
+                            clearInterval(intervalSlid);
+                            var index = $(this).index();
+                            goToSlid(index + 1);
+                        });
+                        slidShow.mouseleave(function () {
+                            clearInterval(intervalSlid);
+                            intervalSlid=setInterval(sliderPlay,timOut);
+                        });
+            //end of slider1
+
+                        //navbar
+                        var timer={};
+                        $('#nav_top li').hover(function () {
+                            var tag=$(this);
+                            var timerAttr=tag.attr('data-time');
+                            clearTimeout(timer[timerAttr]);
+                            timer[timerAttr]=setTimeout(function () {
+                                $('>ul', tag).fadeIn(0);
+                                tag.addClass('activeMenue');
+                                $('>.nav_top_row', tag).fadeIn(0);
+                            }, 500);
+
+                        },
+                                function () {
+                                    var tag=$(this);
+                                    var timerAttr=tag.attr('data-time');
+                                    clearTimeout(timer[timerAttr]);
+                                 timer[timerAttr]=   setTimeout(function () {
+                                        $('>ul', tag).fadeOut(0);
+                                        tag.removeClass('activeMenue');
+                                        $('>.nav_top_row', tag).fadeOut(0);
+                                    }, 600);
+
+                                });
+
+                        //end of nav bar
+
+        </script>
+    </body>
+</html>

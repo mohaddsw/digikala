@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="Style/main.css">
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <link rel="stylesheet" href="Style/flipTimer.css">
+        <title>پنل کاربری اعضا</title>
+    </head>
+    <body>
+        <header>
+            <div id="header">
+                <div id="header_right">
+                    <div id="header_right_top">
+                        <ul>
+                            <li id="wellcomtext">
+                                <span style="background: url(images/slices.png) no-repeat  -309px -26px ;"></span>
+                                فروشگاه اینترنتی دیجی کالا.<a href="#">وارد شوید.</a>
+                            </li>
+                            <li id="regist">
+                                <span style="background: url(images/slices.png) no-repeat  -273px -26px ;"></span>
+                                <a href="#">ثبت نام کنید</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="header_right_bottom">
+                        <div id="basket_top">
+                            <div id="basket_top_right"></div>
+                            <div id="basket_top_left">
+                                <p>سبد خرید</p>
+                                <span>0</span>
+                            </div>
+                        </div>
+                        <div id="search_top">
+                            <input type="text" placeholder="محصول یا دسته یا برند مورد نظرتان را وارد کنید..."/>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div id="header_left">
+                    <a href="#">
+                        <img src="images/logo.png">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <div id="nav_top">
+                <ul>
+
+                    <li data-time="1" >
+                        <a href="#">
+                            کالای دیجیتال
+                            <span></span>
+                        </a>
+                        <ul class="ul_top_2">
+                            <li data-time="3">
+                                <a href="#">موبایل</a>
+
+                                <div class="nav_top_row">
+                                    <div class="nav_top_3row">
+                                        <ul class="ul_top_3">
+
+                                            <li>
+                                                <a href="#">گوشی موبایل</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">Apple</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">HTC</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="nav_top_3row"></div>
+                                    <div class="nav_top_3row"></div>
+                                    <div class="nav_top_3row"></div>
+                                    <img src="images/mobile.png"/>
+                                </div>
+
+                            </li>
+
+                            <li data-time="4">
+                                <a href="#">تبلت خوان</a>
+                            </li>
+
+                            <li data-time="5">
+                                <a href="#">لپ تاپ</a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+
+                    <li data-time="2">
+                        <a href="#">
+                            لوازم خانگی
+                            <span></span>
+                        </a>
+                        <ul class="ul_top_2">
+                            <li data-time="6">
+                                <a href="#">صوتی تصویری</a>
+
+                                <div class="nav_top_row">
+                                    <div class="nav_top_3row">
+                                        <ul class="ul_top_3">
+
+                                            <li>
+                                                <a href="#">تلویزیون بر اساس سازنده</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">LG</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">sony</a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="nav_top_3row"></div>
+                                    <div class="nav_top_3row"></div>
+                                    <div class="nav_top_3row"></div>
+                                    <img src="images/video.png"/>
+                                </div>
+                            </li>
+
+                            <li data-time="7">
+                                <a href="#">لوازم خانگی برقی</a>
+                            </li>
+
+                            <li data-time="8">
+                                <a href="#">آشپزخانه</a>
+                            </li>
+
+                        </ul>
+
+
+
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+
+            <div id="main" style="width: 1200px;margin:10px auto;padding: 5px;background: #fff;">
+
+
+                <div class="order-steps" style="margin-right: 119px;">
+                                  <div class="dashed">
+                                      <span></span>
+                                      <span></span>
+                                      <span></span>
+                                      <span></span>
+                                  </div>
+                                  <ul>
+                                      <li>
+                                          <span class="circle"></span>
+                                          <span class="line"></span>
+                                          <span class="title">
+               ورود به سایت
+                                          </span>
+                                      </li>
+                                      <li>
+                                          <span class="circle"></span>
+                                          <span class="line"></span>
+                                          <span class="title">
+               اطلاعات سفارش
+                                          </span>
+                                      </li>
+                                      <li>
+                                          <span class="circle"></span>
+                                          <span class="line"></span>
+                                          <span class="title">
+               بازبینی سفارش
+                                          </span>
+                                      </li>
+                                      <li style="width:35px ">
+                                          <span class="circle"></span>
+                                          <span class="title">
+               اطلاعات پرداخت
+                                          </span>
+                                      </li>
+
+                                  </ul>
+                                  <div class="dashed">
+                                      <span></span>
+                                      <span></span>
+                                      <span></span>
+                                      <span></span>
+                                  </div>
+
+
+                              </div>
+
+
+                <div class="head">
+                    <h4>
+                        سبد خرید شما در دیجی کالا
+                    </h4>
+                    <a href="showcart4" class="btn_green">
+            ادامه خرید
+                    </a>
+                </div>
+
+
+                <style>
+                    .selectlist {
+                        width: 100px;
+                        height: 37px;
+                        border: 1px solid #ccc;
+                        background: #eee;
+                        position: relative;
+                        text-align: center;
+                        cursor: pointer;
+                        margin: auto;
+                    }
+
+                    .selectlist::after {
+                        content: " ";
+                        width: 22px;
+                        height: 17px;
+                        display: block;
+                        position: absolute;
+                        left: 3px;
+                        top: 13px;
+                        background: url(images/slices.png) no-repeat -31px -461px;
+                    }
+
+                    .selectlist span {
+                        font-size: 9.7pt;
+                        line-height: 36px;
+                    }
+
+                    .selectlist ul {
+                        padding: 0;
+                        box-shadow: 0 2px 2px #cacaca;
+                        display: none;
+                        background: #fff;
+
+                    }
+
+                    .selectlist ul li {
+                        font-family: yekan;
+                        font-size: 10pt;
+                        padding: 2px 5px;
+
+                    }
+
+                    .selectlist ul li:hover {
+                        background: #f9f9ff;
+
+                    }
+
+                    .content table .price {
+                        font-size: 12pt;
+                    }
+
+                    .content table .tuman {
+                        font-size: 10pt;
+                    }
+
+                    .content table .edit_td {
+                        background: #c4e5ff;
+                    }
+
+                    .content table .edit_icon {
+                        width: 15px;
+                        height: 15px;
+                        display: block;
+                        background: url(images/slices.png) no-repeat scroll -811px -414px;
+                        margin: auto;
+                    }
+
+                </style>
+
+                <div class="content">
+                    <table cellspacing="0">
+                        <tr>
+                            <td>شرح محصول</td>
+                            <td>تعداد</td>
+                            <td>قیمت واحد</td>
+                            <td style="border-left: 0;">قیمت کل</td>
+                            <td></td>
+                        </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="right">
+                                        <img src="images/schwan-903-steering-wheel-lock.jpg">
+                                    </div>
+                                    <div class="left">
+                                        <p>
+مسواک
+                                        </p>
+                                        <p>
+1
+                                        </p>
+                                        <p>
+رنگ :قرمز
+
+                                        </p>
+                                    </div>
+                                </td>
+                                <td>
+
+
+                                <span class="yekan zamanattitle">
+1
+                                </span>
+
+
+                                </td>
+                                <td>
+                                    <span class="price">26000</span>
+                                    <span class="tuman">تومان</span>
+                                </td>
+                                <td>
+                                    <span class="price">
+                                        260000
+                                       </span>
+                                    <span class="tuman">تومان</span>
+                                    <br>
+                                    <span style="color:red;">
+                                        260000
+                                    </span>
+                                    <span class="tuman">تومان</span>
+                                </td>
+                                <td class="edit_td">
+                                    <a href="showcart">
+                                        <i class="edit_icon"></i>
+                                    </a>
+                                </td>
+                            </tr>
+
+                    </table>
+                </div>
+
+                <style>
+
+                    #main::after {
+                           content: " ";
+                           clear: both;
+                           display: block;
+                       }
+
+                       .head {
+                           float: right;
+                           margin-top: 36px;
+                           width: 100%;
+                       }
+
+                       .head h4 {
+                           font-size: 12.5pt;
+                           font-family: yekan;
+                           margin-top: 5px;
+                           padding-right: 10px;
+                           float: right;
+                       }
+
+                       .btn_green {
+                           background: #36be2b none repeat scroll 0 0;
+                           box-shadow: 1px 1px 3px #ccc;
+                           color: #fff;
+                           display: block;
+                           font-family: yekan;
+                           font-size: 11pt;
+                           height: 37px;
+                           line-height: 34px;
+                           text-align: center;
+                           width: 170px;
+                           border-radius: 4px;
+                       }
+
+                       .head .btn_green {
+                           float: left;
+                           margin-left: 5px;
+                           margin-top: 8px;
+                       }
+
+                       .content table {
+                           width: 100%;
+                           font-family: yekan;
+                           font-size: 11pt;
+                           float: right;
+                           margin-top: 10px;
+                       }
+
+                       .content table td {
+                           border-left: 1px solid #eee;
+                           border-bottom: 1px solid #eee;
+                           padding: 3px;
+                       }
+
+                       .content table tr td:not(:first-child) {
+                           text-align: center;
+                       }
+
+                       .content table tr td:first-child {
+                           border-right: 1px solid #eee;
+                       }
+
+                       .content table tr:first-child {
+                           background: #f7f9fa;
+                       }
+
+                       .content table tr:first-child td {
+                           text-align: center;
+                           padding: 10px;
+                           border-top: 1px solid #eee;
+                       }
+
+                       .content table .right {
+                           float: right;
+                       }
+
+                       .content table .left {
+                           float: right;
+                           margin-right: 8px;
+                       }
+
+                       .content table .left p {
+                           margin: 2px 0;
+                       }
+
+                       .content table .right img {
+                           max-width: 135px;
+                           max-height: 135px;
+                       }
+                    #final_price {
+                        width: 600px;
+                        float: left;
+                        font-family: yekan;
+                        margin-top: 50px;
+                        border: 1px solid greenyellow;
+                        padding: 10px;
+                    }
+
+                    #totlal_price, #send_price, #discount_price {
+
+                        border-bottom: 1px solid greenyellow;
+                        float: right;
+                        padding: 6px 2px;
+                        width: 100%;
+                    }
+
+                    .totlal_price1 {
+                        float: right;
+                        color: #66585b;
+                        font-size: 10pt;
+                    }
+
+                    .totlal_price2 {
+                        float: right;
+                        color: #66585b;
+                        font-size: 12pt;
+                        margin-right: 395px;
+                    }
+
+                    .totlal_price3 {
+
+                        float: right;
+                        color: #66585b;
+                        font-size: 9pt;
+                        margin-right: 10px;
+                        margin-top: 3px;
+                    }
+
+                    #pardakht_price {
+
+                        float: right;
+                        padding: 6px 2px;
+                        width: 100%;
+
+                    }
+                </style>
+
+                <div id="final_price">
+                    <div id="totlal_price">
+                        <span class="totlal_price1">
+                            جمع کل خرید شما :
+                        </span>
+                        <span class="totlal_price2">
+                           26000
+                        </span>
+                        <span class="totlal_price3">
+                            تومان
+                        </span>
+                    </div>
+
+                    <div id="send_price">
+                        <span class="totlal_price1">
+            هزینه ارسال ،بسته بندی و بیمه:
+                        </span>
+                        <span class="totlal_price2" style="margin-right: 325px;">
+                          60000
+                        </span>
+                        <span class="totlal_price3">
+                            تومان
+                        </span>
+                    </div>
+
+                    <div id="discount_price">
+                        <span class="totlal_price1">
+            جمع کل مبلغ تخفیف:
+                        </span>
+                        <span class="totlal_price2" style="margin-right: 384px;">
+                            2000
+                        </span>
+                        <span class="totlal_price3">
+                            تومان
+                        </span>
+                    </div>
+
+                    <div id="pardakht_price">
+
+                        <span class="totlal_price1">
+            مبلغ قابل پرداخت:
+                        </span>
+                        <span class="totlal_price2">
+                            24000
+                        </span>
+                        <span class="totlal_price3">
+                            تومان
+                        </span>
+                    </div>
+
+
+                </div>
+
+
+                <div class="head">
+                    <h4>
+                        اطلاعات ارسال سفارش
+                    </h4>
+
+                </div>
+
+                <style>
+                    .review_send_info {
+                        width: 100%;
+                        float: right;
+                        margin-top: 30px;
+                        font-family: yekan;
+                        font-size: 11pt;
+                    }
+
+                    .review_send_info td {
+
+                        border-right: 1px solid #eee;
+                        border-bottom: 1px solid #eee;
+                        padding: 5px;
+                    }
+
+                    .review_send_info tr:first-child td {
+
+                        border-top: 1px solid #eee;
+
+                    }
+
+                    .review_send_info tr td:last-child {
+
+                        border-left: 1px solid #eee;
+
+                    }
+
+                    .review_send_info i {
+                        width: 29px;
+                        height: 29px;
+                        background: url(images/slices.png) no-repeat;
+                        display: block;
+                    }
+                </style>
+
+                <table class="review_send_info" cellspacing="0">
+
+                    <?php
+                    $addressInfo = $data['addressInfo'];
+                    ?>
+
+                    <tr>
+                        <td>
+                            <i style="background-position: -810px -205px;"></i>
+                        </td>
+                        <td>
+                            این سفارش به
+                           محدثه رحیمی
+                            به آدرس
+
+                           گرگان
+
+                            و شماره تماس
+                           017333333
+                            تحویل می‌گردد
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><i style="background-position: -806px -250px;"></i></td>
+                        <td>
+                            این سفارش از طریق پست
+
+                           پست پیشتاز
+
+                            (هزينه ارسال: طبق تعرفه پست) با هزینه
+                           24000
+                            تومان به شما تحویل داده خواهد
+                            شد.
+                        </td>
+                    </tr>
+
+
+                </table>
+
+
+                <div style="float: left;width: 100%;margin-top: 50px;">
+                    <a href="showcart2" class="btn_green" style="float: left;background: #ccc;">
+                        ویرایش </a>
+                </div>
+
+                <div style="float: left;width: 100%;margin-top: 50px;">
+                    <a href="showcart4" class="btn_green" style="float: left;">
+            ادامه خرید
+                    </a>
+                </div>
+
+            </div>
+
+        <footer>
+
+            <div id="footer_top">
+                <div class="main">
+
+                    <span class="yekan fontlg">
+                         ۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم.
+                    </span>
+
+                    <ul>
+                        <li>
+                            <a class="yekan">
+
+                                021-222-22-22
+                                <i style="background-position: -397px -420px; "></i>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a class="yekan">
+                                سوالات متداول
+                                <i style="background-position: -358px -420px; "></i>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a class="yekan">
+                                info@digikala
+                                <i style="background-position: -321px -420px; "></i>
+
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+
+            <div id="footer_bottom">
+
+                <div class="main">
+
+                    <div class="right">
+
+                        <ul>
+                            <li><a class="title2">راهنمای خرید از دیجی‌کالا</a></li>
+                            <li><a> ثبت سفارش</a></li>
+                            <li><a>رویه های ارسال سفارش</a></li>
+                            <li><a>شیوه های پرداخت</a></li>
+
+
+                        </ul>
+
+                    </div>
+                    <div class="center">
+                        <ul>
+                            <li><a class="title2">راهنمای خرید مشتریان</a></li>
+                            <li><a> ثبت سفارش</a></li>
+                            <li><a>رویه های ارسال سفارش</a></li>
+                            <li><a>شیوه های پرداخت</a></li>
+
+
+                        </ul>
+                    </div>
+                    <div class="left">
+                        <p class="title2 yekan">
+                            اولین نفری که مطلع می شود، باشید!
+                        </p>
+
+                        <div class="email">
+                            <input type="text">
+                            <span class="btn">
+                                تایید ایمیل
+                            </span>
+                        </div>
+
+                        <div class="social">
+
+                            <a>
+                                <img src="images/ios_app_bg.png">
+                            </a>
+                            <a>
+                                <img src="images/android_app_bg.png">
+                            </a>
+
+                            <span class="social_button" style="background-position:-577px -621px; "></span>
+                            <span class="social_button" style="background-position:-453px -621px; "></span>
+                            <span class="social_button" style="background-position:-494px -621px; "></span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+
+
+        <script>
+
+                        //navbar
+                        var timer={};
+                        $('#nav_top li').hover(function () {
+                            var tag=$(this);
+                            var timerAttr=tag.attr('data-time');
+                            clearTimeout(timer[timerAttr]);
+                            timer[timerAttr]=setTimeout(function () {
+                                $('>ul', tag).fadeIn(0);
+                                tag.addClass('activeMenue');
+                                $('>.nav_top_row', tag).fadeIn(0);
+                            }, 500);
+
+                        },
+                                function () {
+                                    var tag=$(this);
+                                    var timerAttr=tag.attr('data-time');
+                                    clearTimeout(timer[timerAttr]);
+                                 timer[timerAttr]=   setTimeout(function () {
+                                        $('>ul', tag).fadeOut(0);
+                                        tag.removeClass('activeMenue');
+                                        $('>.nav_top_row', tag).fadeOut(0);
+                                    }, 600);
+
+                                });
+
+                        //end of nav bar
+
+        </script>
+
+    </body>
+</html>

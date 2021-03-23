@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3d image</title>
+   <script src="jsc3d.js"></script>
+   <script src="jsc3d.touch.js"></script>
+   <script src="jsc3d.webgl.js"></script>
+</head>
+<body>
+
+
+<canvas id="cv" width="420" height="320"></canvas>
+
+<script>
+    var canvasTag=document.getElementById('cv');
+var viwer=new JSC3D.Viewer(canvasTag,{
+    SceneUrl:'../images/products/8/3d/bmw.obj',
+    RenderMode:'textureSmooth',
+    InitRotationX:180,
+    InitRotationY:180,
+    InitRotationZ:180
+});
+viwer.init();
+viwer.update()
+</script>
+
+
+</body>
+</html>
